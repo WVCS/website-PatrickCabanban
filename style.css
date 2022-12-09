@@ -1,3 +1,38 @@
 body {
+  background-color: lightblue;
+}
 
+h2 {
+  color: black
+}
+
+img {
+  width: 50%;
+  border: dotted green 5px;
+}
+
+img:hover {
+  width: 60%;
+  border: dotted black 8px;
+}
+nav {
+  list-style-type: none;
+  background-color: grey;
+  width: 100%;
+  position: fixed;
+  top: 0.5;
+  left: 0;
+}
+
+li{
+  display: inline;
+  padding: 14px;
+  float: right;
+}
+li:hover {
+  background-color: gold;
+}
+a{
+  text-decoration: none;
+  color: white;
 }
